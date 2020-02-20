@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+img {
+width: 20%;
+}
+
+h4{
+font-size: 1.5em;
+color:blue
+}
+
+h1{
+font-size: 3.5em;
+}
+
+.first {
+transform: rotate(-15deg);
+}
+
+.third {
+transform: rotate(15deg);
+}
+
+table {
+border-collapse: collapse;
+padding: 15px;
+
+}
