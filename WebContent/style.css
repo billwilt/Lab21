@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-img {
-width: 20%;
-}
+
 
 h4{
 font-size: 1.5em;
@@ -26,3 +24,63 @@ border-collapse: collapse;
 padding: 15px;
 
 }
+
+.col {
+	padding: 25px;
+}
+
+footer { 
+  display: block;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  padding: 25px;
+  background-color: #F0F0F0;
+}
+
+.portfolio_row {
+  display: flex;
+  padding: 25px;
+}
+
+.column {
+  flex: 50%;
+  padding: 45px;
+}
+
+.columntwo {
+  flex: 33%;
+  padding: 45px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.bill {
+  max-width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.right {
+  position: relative;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #000000;
+  padding: 10px;
+}
+
